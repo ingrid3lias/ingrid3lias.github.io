@@ -14,7 +14,18 @@
     <!-- Page Wrapper -->
     <div id="page-wrapper">
 
+      <!-- Header -->
       {% include header.html %}
+
+      <section id="banner">
+        <div class="inner">
+          <h2>{{page.header_title}}</h2>
+          <p>{{page.header_description}}</p>
+          <ul class="actions">
+            <li><a href="/profile.html" class="button">{{page.button_text}}</a></li>
+          </ul>
+        </div>
+      </section>
 
       {{ content }}
 
