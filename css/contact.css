@@ -1,0 +1,12 @@
+.contact-title {
+	color: #333333;
+	font-size: 26px;
+	font-weight: 100;
+	letter-spacing: auto;
+}
+
+.title-border {
+	border: 2px solid;
+	width: 50px;
+	margin: 0px auto 30px auto;
+}

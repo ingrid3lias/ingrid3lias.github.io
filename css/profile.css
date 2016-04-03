@@ -1,0 +1,22 @@
+
+.profile-text {
+	font-family: 'Roboto Slab';
+	font-weight: 100;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+}
+
+.profile-text-title {
+	font-size: 38px;
+	color: #333333;
+	text-align: center;
+}
+
+.profile-skills {
+	text-align: center;
+}
+
+.profile-button {
+	text-align: center;
+}
