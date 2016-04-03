@@ -1,76 +1,27 @@
 ---
 layout: portfolio
-header_image:
+header_image: /images/banner.jpg
 header_title: My Work
 header_description: A Collection of case studies, design work,</br>and development projects
 button_text: View My Profile
+button_link: /profile.html
 ---
 
-<!-- one -->
+<!-- project links -->
+{% for work in site.data.work %}
 <section id="one" class="wrapper style3 special">
 	<div class="inner">
 		<header class="major">
-			<h2>Castaway</h2>
-			<p>UX/UI Design<br />
-			Angular JS Development</p>
+			<h2>{{work.project}}</h2>
+			<p>{{work.tag}}<br />
+			{{work.tag2}}</p>
 		</header>
 		<ul class="icons major">
-			<li><a class="button">Case Study</a></li>
+			<li><a href="{{work.link}}"class="button">Case Study</a></li>
 		</ul>
 	</div>
 </section>
-<!-- two -->
-<section id="one" class="wrapper style1 special">
-	<div class="inner">
-		<header class="major">
-			<h2>Paycrave</h2>
-			<p>iOS Mobile Application<br />
-			User Research &amp; UI Design</p>
-		</header>
-		<ul class="icons major">
-			<li><a class="button">Case Study</a></li>
-		</ul>
-	</div>
-</section>
-<!-- three -->
-<section id="two" class="wrapper style2 special">
-	<div class="inner">
-		<header class="major">
-			<h2>Kanpai Club</h2>
-			<p>Product Showcase<br />
-			Branding &amp; UI Design</p>
-		</header>
-		<ul class="icons major">
-			<li><a class="button">Case Study</a></li>
-		</ul>
-	</div>
-</section>
-<!-- four -->
-<section id="one" class="wrapper style3 special">
-	<div class="inner">
-		<header class="major">
-			<h2>Kojima</h2>
-			<p>E-Commerce Shop<br />
-			Branding &amp; Web Design</p>
-		</header>
-		<ul class="icons major">
-			<li><a class="button">Case Study</a></li>
-		</ul>
-	</div>
-</section>
-<!-- five -->
-<section id="one" class="wrapper style1 special">
-	<div class="inner">
-		<header class="major">
-			<h2>Blocbox</h2>
-			<p>SAAS Web Application<br />
-			Branding &amp; UX/UI Design</p>
-		</header>
-		<ul class="icons major">
-			<li><a class="button">Case Study</a></li>
-		</ul>
-	</div>
-</section>
+{% endfor %}
 <!-- profile/contact -->
 <section id="cta" class="wrapper style4">
 	<div class="inner">

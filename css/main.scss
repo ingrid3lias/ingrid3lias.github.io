@@ -8,9 +8,9 @@ $baseurl: '{{ site.baseurl }}/images';
 @import 'libs/functions';
 @import 'libs/mixins';
 @import 'font-awesome.min.css';
-@import 'profile.css';
-@import 'contact.css';
-@import 'work.css';
+@import 'pages/profile.css';
+@import 'pages/contact.css';
+@import 'pages/work.css';
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic');
 
 /*
@@ -1840,7 +1840,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	body.portfolio {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/{{page.header_image}}")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("{{page.header_image}}")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
