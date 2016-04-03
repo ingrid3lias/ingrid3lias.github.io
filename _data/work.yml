@@ -2,7 +2,7 @@
   tag: Angular JS Application
   tag2: UX/UI Design & Development
   image: /images/header_castaway.jpg
-  link: /portfolio/paycrave.html
+  link: /portfolio/castaway.html
 - project: Paycrave
   tag: iOS Mobile Application
   tag2: User Research & UI Design
@@ -12,14 +12,14 @@
   tag: Product Showcase Page
   tag2: Branding & Visual Design
   image: /images/header_kanpai.jpg
-  link: /portfolio/paycrave.html
+  link: /portfolio/kanpai.html
 - project: Kojima
   tag: E-Commerce Shop
   tag2: Branding & Web Design
   image: /images/header_kojima.jpg
-  link: /portfolio/paycrave.html
+  link: /portfolio/kojima.html
 - project: Blocbox
   tag: SAAS Web Application
   tag2: Branding & Web Design
   image: /images/header_blocbox.jpg
-  link: /portfolio/paycrave.html
+  link: /portfolio/blocbox.html
