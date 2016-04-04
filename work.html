@@ -9,21 +9,19 @@ button_link: /profile.html
 
 <!-- project links -->
 {% for work in site.data.work %}
-<section id="one" class="wrapper style3 special">
+<section id="one" class="wrapper style3 special" style="background: linear-gradient(to bottom, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .7) 59%, rgba(0, 0, 0, 0.7) 100%), url('{{work.image}}'); background-size: cover;">
 	<div class="inner">
-		<header class="major">
 			<h2>{{work.project}}</h2>
 			<p>{{work.tag}}<br />
 			{{work.tag2}}</p>
-		</header>
 		<ul class="icons major">
-			<li><a href="{{work.link}}"class="button">Case Study</a></li>
+			<li><a href="{{work.link}}" class="button special">Case Study</a></li>
 		</ul>
 	</div>
 </section>
 {% endfor %}
 <!-- profile/contact -->
-<section id="cta" class="wrapper style4">
+<section id="cta" class="wrapper style4" style="background: linear-gradient(to bottom, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .7) 59%, rgba(0, 0, 0, 0.7) 100%), url('{{page.header_image}}'); background-size: cover; background-attachment: fixed;">
 	<div class="inner">
 		<header>
 			<h3 class="more">Find out more</h3>

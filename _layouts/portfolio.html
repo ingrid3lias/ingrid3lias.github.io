@@ -6,7 +6,7 @@
   Jekyll build mod
 -->
 <html>
-
+  
   {% include head.html %}
 
   <body class="portfolio">
@@ -17,7 +17,7 @@
       <!-- Header -->
       {% include header.html %}
 
-      <section id="banner">
+      <section id="banner" style="background: linear-gradient(to bottom, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .7) 59%, rgba(0, 0, 0, 0.7) 100%), url('{{page.header_image}}'); background-size: cover; background-attachment: fixed;">
         <div class="inner">
           <h2>{{page.header_title}}</h2>
           <p class="header-desc">{{page.header_description}}</p>
