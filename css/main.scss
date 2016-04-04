@@ -1879,6 +1879,48 @@ header.major  {
 	margin: 0 0 20px 0;
 }
 
-style5 {
+header.major.project-image {
+	margin-top: 3.5rem;
+}
+
+.style5 {
 	background-color: #FFFFFF;
+}
+
+.wrapper {
+	padding: 3rem 0;
+}
+
+p {
+	margin: 0;
+}
+
+p.header-desc {
+	margin-bottom: 2rem;
+}
+
+#one.style6 {
+	height: 300px;
+}
+
+.landing-button {
+	margin-top: 2rem;
+}
+
+h1, h2, h3, h4, h5 h6 {
+	font-family: 'Open Sans';
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 38px;
+}
+
+h3.more {
+	font-size: 28px;
+}
+
+p {
+	font-family: 'Roboto Slab';
+	font-weight: 100;
 }
