@@ -1891,10 +1891,6 @@ header.major.project-image {
 	padding: 3rem 0;
 }
 
-p {
-	margin: 0;
-}
-
 p.header-desc {
 	margin-bottom: 2rem;
 }
@@ -1906,6 +1902,13 @@ p.header-desc {
 .landing-button {
 	margin-top: 2rem;
 }
+
+img.top-logo {
+	height: 30px;
+	margin-top: 10px;
+}
+
+/* Typography */
 
 h1, h2, h3, h4, h5 h6 {
 	font-family: 'Open Sans';
@@ -1923,4 +1926,5 @@ h3.more {
 p {
 	font-family: 'Roboto Slab';
 	font-weight: 100;
+	margin: 0;
 }
