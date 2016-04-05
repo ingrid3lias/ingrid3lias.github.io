@@ -7,8 +7,8 @@ description: UX/UI Designer & Developer  #description
 owner: Ingrid Elias # or company name
 first_published: 2015 # if migrating another site, the year of your first publish
 email: ingrid3lias@gmail.com
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://ingrid-elias.com" # the base hostname & protocol for your site
+baseurl: "/ingrid3lias.github.io" # the subpath of your site, e.g. /blog
+url: "http://ingrid3lias.github.io" # the base hostname & protocol for your site
 social:
   twitter: https://twitter.com/ingrid3lias
   github: https://github.com/ingrid3lias
