@@ -15,13 +15,11 @@ layout: landing
 
 				<!-- Projects -->
 					{% for work in site.data.work limit: 3 %}
-					<section id="one" class="wrapper style3 special">
+					<section id="one" class="wrapper style3 special" style="background: linear-gradient(to bottom, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .7) 59%, rgba(0, 0, 0, 0.7) 100%), url('{{work.image}}'); background-size: cover;">
 						<div class="inner">
-							<header class="major">
-								<h2>{{work.project}}</h2>
-								<p>{{work.tag}}<br />
-								{{work.tag2}}</p>
-							</header>
+							<h2>{{work.project}}</h2>
+							<p>{{work.tag}}<br />
+							{{work.tag2}}</p>
 							<ul class="icons major">
 								<li><a href="{{work.link}}"class="button">Case Study</a></li>
 							</ul>
