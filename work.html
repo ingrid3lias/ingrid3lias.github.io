@@ -9,10 +9,10 @@ button_link: /profile.html
 
 <!-- project links -->
 {% for work in site.data.work %}
-<section id="one" class="wrapper style3 special" style="background: linear-gradient(to bottom, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .7) 59%, rgba(0, 0, 0, 0.7) 100%), url('{{work.image}}'); background-size: cover;">
+<section id="one" class="wrapper style3 special style7" style="background: linear-gradient(to bottom, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .7) 59%, rgba(0, 0, 0, 0.7) 100%), url('{{work.image}}'); background-size: cover;">
 	<div class="inner">
-			<h2>{{work.project}}</h2>
-			<p>{{work.tag}}<br />
+			<h2 class="index-title">{{work.project}}</h2>
+			<p class="index-desc">{{work.tag}}<br />
 			{{work.tag2}}</p>
 		<ul class="icons major">
 			<li><a href="{{work.link}}" class="button special">Case Study</a></li>

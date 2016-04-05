@@ -1884,24 +1884,47 @@ header.major.project-image {
 	margin-top: 3.5rem;
 }
 
-.style5 {
-	background-color: #FFFFFF;
-}
-
 .wrapper {
 	padding: 3rem 0;
 }
 
-p.header-desc {
-	margin-bottom: 2rem;
-}
-
-#one.style6 {
-	height: 300px;
-}
-
 .landing-button {
 	margin-top: 2rem;
+}
+
+.index-title {
+
+	margin-top: 3rem;
+	margin-bottom: 0;
+
+	@include breakpoint(xlarge) {
+			font-size: 5rem;
+		}
+
+	@include breakpoint(large) {
+			font-size: 4rem;
+		}
+
+	@include breakpoint(small) {
+			font-size: 2.5rem;
+		}
+}
+
+.index-desc {
+
+	margin-bottom: 2rem;
+
+	@include breakpoint(xlarge) {
+			font-size: 1.5rem;
+		}
+
+	@include breakpoint(large) {
+			font-size: 1.25rem;
+		}
+
+	@include breakpoint(small) {
+			font-size: 1rem;
+		}
 }
 
 img.top-logo {
@@ -1909,10 +1932,29 @@ img.top-logo {
 	margin-top: 10px;
 }
 
-/* Owl Carousel */
+/* New Style Styles */
 
-.owl-item {
-	padding: 0 5px;
+.style5 {
+	background-color: #FFFFFF;
+}
+
+#one.style6 {
+	height: 300px;
+}
+
+.style7 {
+
+	@include breakpoint(xlarge) {
+			height: 30rem;
+		}
+
+	@include breakpoint(large) {
+			height: 30rem;
+		}
+
+	@include breakpoint(small) {
+			height: 25rem;
+		}
 }
 
 /* Typography */
@@ -1934,4 +1976,8 @@ p {
 	font-family: 'Roboto Slab';
 	font-weight: 100;
 	margin: 0;
+}
+
+p.header-desc {
+	margin-bottom: 2rem;
 }
